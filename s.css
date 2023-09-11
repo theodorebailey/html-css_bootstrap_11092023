@@ -2,3 +2,54 @@
     margin: 0;
     padding: 0;
 }
+
+.right-menu li{
+    display: inline-flex;
+    margin-top: 30px !important;
+}
+
+.right-menu .fa{
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.navbar-brand img{
+    width: 160px;
+}
+
+.navbar-brand{
+    left: 50%;
+    top: 25px;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.header{
+    background: #fff;
+}
+
+.navbar{
+    padding: 0 35px !important;
+}
+
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+    padding: 0 !important;
+    margin-top: 30px;
+}
+
+.navbar-toggler .fa{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#search-icon-box{
+    background: #fff;
+}
+
+#search-icon{
+    background: #fff;
+    border: none;
+}
